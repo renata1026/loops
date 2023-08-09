@@ -28,7 +28,7 @@ if (firstChoice === 'length') {
   // if user selects binary
 } else if (firstChoice === 'binary') {
   const word = prompt('Enter string to find out the binary');
-  const wordArr = word.split('').filter;
+  const wordArr = word.split('');
   const binaryArr = wordArr.filter((char) => char === '0' || char === '1');
   alert(`Filtered binary characters: ${binaryArr.join('')}`);
 } else {
